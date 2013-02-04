@@ -44,10 +44,10 @@
 		<string>Wei</string>
 		<key>categories</key>
 		<array>
-			<string>Applications</string>
+			<string>System</string>
 		</array>
 		<key>description</key>
-		<string>One-line summary for this plug-in</string>
+		<string>Manages system idle sleep</string>
 		<key>extendedDescription</key>
 		<string>HTML formatted documentation for this plug-in.</string>
 		<key>icon</key>

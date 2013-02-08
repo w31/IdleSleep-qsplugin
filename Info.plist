@@ -36,6 +36,8 @@
 			</array>
 			<key>icon</key>
 			<string>ToolbarAdvanced</string>
+			<key>validatesObjects</key>
+			<true/>
 		</dict>
 		<key>IdleSleepEnable</key>
 		<dict>
@@ -49,6 +51,8 @@
 			</array>
 			<key>icon</key>
 			<string>ToolbarAdvanced</string>
+			<key>validatesObjects</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>QSPlugIn</key>

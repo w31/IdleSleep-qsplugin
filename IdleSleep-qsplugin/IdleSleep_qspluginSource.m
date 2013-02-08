@@ -30,9 +30,12 @@
 	NSMutableArray *objects=[NSMutableArray arrayWithCapacity:1];
 	QSObject *newObject;
 	
-	newObject=[QSObject objectWithName:@"TestObject"];
-	[newObject setObject:@"" forType:QSIdleSleep_qspluginType];
+	newObject=[QSObject objectWithName:@"Idle Sleep"];
+	[newObject setObject:@"Virtual Idle Sleep Object" forType:QSIdleSleep_qspluginType];
 	[newObject setPrimaryType:QSIdleSleep_qspluginType];
+    [newObject setDetails:@"Idle Sleep"];
+//    [newObject setIcon:<#(NSImage *)#>];
+//    [newObject setIdentifier:@"IdleSleep"];
 	[objects addObject:newObject];
 	
 	return objects;

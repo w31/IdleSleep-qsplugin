@@ -6,6 +6,7 @@
 //
 
 #import "IdleSleep_qspluginAction.h"
+#import "IdleSleep_qspluginSource.h"
 
 @implementation QSIdleSleep_qspluginActionProvider
 
@@ -31,6 +32,21 @@
         NSLog(@"IOPMAssertionRelease failed");
     }
 
+    return nil;
+}
+
+- (NSArray *)validActionsForDirectObject:(QSObject *)dObject indirectObject:(QSObject *)iObject
+{
+    if ([dObject containsType:QSIdleSleep_qspluginType]) {
+        NSMutableArray *actions = [[NSMutableArray alloc] init];
+        if (idleSleepDisabled) {
+            [actions addObject:@"IdleSleepEnable"];
+        }
+        else {
+            [actions addObject:@"IdleSleepDisable"];
+        }
+        return actions;
+    }
     return nil;
 }
 

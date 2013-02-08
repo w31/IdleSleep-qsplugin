@@ -9,7 +9,29 @@
 
 @implementation QSIdleSleep_qspluginActionProvider
 
-- (QSObject *)performActionOnObject:(QSObject *)dObject{
-	return nil;
+- (QSObject *)disableIdleSleep
+{
+    NSLog(@"disableIdleSleep");
+	IOReturn success = IOPMAssertionCreateWithName(kIOPMAssertionTypeNoIdleSleep,
+												   kIOPMAssertionLevelOn,
+                                                   CFSTR("Quicksilver IdleSleep plugin"),
+                                                   &assertionID);
+	if (success != kIOReturnSuccess) {
+        NSLog(@"IOPMAssertionCreateWithName failed");
+    }
+
+    return nil;
 }
+
+- (QSAction *)enableIdleSleep
+{
+    NSLog(@"enableIdleSleep");
+	IOReturn success = IOPMAssertionRelease(assertionID);
+	if (success != kIOReturnSuccess) {
+        NSLog(@"IOPMAssertionRelease failed");
+    }
+
+    return nil;
+}
+
 @end

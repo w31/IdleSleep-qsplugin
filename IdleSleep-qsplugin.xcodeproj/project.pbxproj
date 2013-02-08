@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B6A3963B16BF68D600737BF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A3963A16BF68D600737BF4 /* Cocoa.framework */; };
 		B6A3964116BF68D600737BF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6A3963F16BF68D600737BF4 /* InfoPlist.strings */; };
-		B6A3964916BF68D600737BF4 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B6A3964816BF68D600737BF4 /* Release.xcconfig */; };
 		B6A3964D16BF68D600737BF4 /* IdleSleep_qspluginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A3964C16BF68D600737BF4 /* IdleSleep_qspluginAction.m */; };
 		B6A3965016BF68D600737BF4 /* IdleSleep_qspluginSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A3964F16BF68D600737BF4 /* IdleSleep_qspluginSource.m */; };
 /* End PBXBuildFile section */
@@ -251,6 +250,7 @@
 				B6A3965516BF68D600737BF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

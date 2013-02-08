@@ -24,12 +24,25 @@
 	<string>1</string>
 	<key>QSActions</key>
 	<dict>
-		<key>IdleSleep_qspluginExampleAction</key>
+		<key>IdleSleepDisable</key>
 		<dict>
 			<key>actionClass</key>
 			<string>QSIdleSleep_qspluginActionProvider</string>
 			<key>actionSelector</key>
-			<string>performActionOnObject:</string>
+			<string>disableIdleSleep</string>
+			<key>directTypes</key>
+			<array>
+				<string>QSIdleSleep_qspluginType</string>
+			</array>
+			<key>icon</key>
+			<string>ToolbarAdvanced</string>
+		</dict>
+		<key>IdleSleepEnable</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSIdleSleep_qspluginActionProvider</string>
+			<key>actionSelector</key>
+			<string>enableIdleSleep</string>
 			<key>directTypes</key>
 			<array>
 				<string>QSIdleSleep_qspluginType</string>

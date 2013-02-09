@@ -35,7 +35,7 @@
 				<string>QSIdleSleep_qspluginType</string>
 			</array>
 			<key>icon</key>
-			<string>ToolbarAdvanced</string>
+			<string>DisableIcon</string>
 			<key>name</key>
 			<string>Disable idle sleep</string>
 			<key>precedence</key>
@@ -54,7 +54,7 @@
 				<string>QSIdleSleep_qspluginType</string>
 			</array>
 			<key>icon</key>
-			<string>ToolbarAdvanced</string>
+			<string>EnableIcon</string>
 			<key>name</key>
 			<string>Enable idle sleep</string>
 			<key>precedence</key>
@@ -251,6 +251,24 @@
 	</dict>
 	<key>QSResourceAdditions</key>
 	<dict>
+		<key>DisableIcon</key>
+		<array>
+			<dict>
+				<key>bundle</key>
+				<string>com.github.w31.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>resource</key>
+				<string>Sun.png</string>
+			</dict>
+		</array>
+		<key>EnableIcon</key>
+		<array>
+			<dict>
+				<key>bundle</key>
+				<string>com.github.w31.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>resource</key>
+				<string>Stars.png</string>
+			</dict>
+		</array>
 		<key>IdleSleepIcon</key>
 		<array>
 			<dict>

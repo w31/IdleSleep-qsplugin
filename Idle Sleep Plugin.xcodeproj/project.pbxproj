@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B67C5B9816C6DA4300A9CBB9 /* Stars.png in Resources */ = {isa = PBXBuildFile; fileRef = B67C5B9616C6DA4300A9CBB9 /* Stars.png */; };
+		B67C5B9916C6DA4300A9CBB9 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = B67C5B9716C6DA4300A9CBB9 /* Sun.png */; };
 		B6A3963B16BF68D600737BF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6A3963A16BF68D600737BF4 /* Cocoa.framework */; };
 		B6A3964116BF68D600737BF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6A3963F16BF68D600737BF4 /* InfoPlist.strings */; };
 		B6A3964D16BF68D600737BF4 /* IdleSleep_qspluginAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A3964C16BF68D600737BF4 /* IdleSleep_qspluginAction.m */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B67C5B9616C6DA4300A9CBB9 /* Stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Stars.png; path = Resources/Stars.png; sourceTree = "<group>"; };
+		B67C5B9716C6DA4300A9CBB9 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sun.png; path = Resources/Sun.png; sourceTree = "<group>"; };
 		B6A3963716BF68D600737BF4 /* Idle Sleep Plugin.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Idle Sleep Plugin.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A3963A16BF68D600737BF4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B6A3963E16BF68D600737BF4 /* IdleSleep-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IdleSleep-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -109,6 +113,8 @@
 		B6FE9E5D16C642ED008FA06C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B67C5B9616C6DA4300A9CBB9 /* Stars.png */,
+				B67C5B9716C6DA4300A9CBB9 /* Sun.png */,
 				B6FE9E5B16C642E5008FA06C /* Lightbulb.png */,
 			);
 			name = Resources;
@@ -168,6 +174,8 @@
 			files = (
 				B6A3964116BF68D600737BF4 /* InfoPlist.strings in Resources */,
 				B6FE9E5C16C642E5008FA06C /* Lightbulb.png in Resources */,
+				B67C5B9816C6DA4300A9CBB9 /* Stars.png in Resources */,
+				B67C5B9916C6DA4300A9CBB9 /* Sun.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -43,12 +43,12 @@
 
 // Object Handler Methods
 
-/*
+
 - (void)setQuickIconForObject:(QSObject *)object
 {
-	[object setIcon:nil]; // An icon that is either already in memory or easy to load
+	[object setIcon:[QSResourceManager imageNamed:@"IdleSleepIcon"]];
 }
-
+/*
 - (BOOL)loadIconForObject:(QSObject *)object
 {
 	return NO;

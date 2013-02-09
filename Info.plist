@@ -89,7 +89,7 @@
 					<key>ID</key>
 					<string>QSPresetIdleSleep_qsplugin</string>
 					<key>name</key>
-					<string>Items from IdleSleep plugin</string>
+					<string>Idle Sleep items</string>
 					<key>source</key>
 					<string>QSIdleSleep_qspluginSource</string>
 				</dict>
@@ -233,7 +233,7 @@
 				<key>icon</key>
 				<string>GenericDocumentIcon</string>
 				<key>name</key>
-				<string>IdleSleep_qsplugin Object</string>
+				<string>Idle Sleep</string>
 			</dict>
 		</dict>
 	</dict>

@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B6A3963716BF68D600737BF4 /* IdleSleep.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IdleSleep.qsplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A3963716BF68D600737BF4 /* Idle Sleep Plugin.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Idle Sleep Plugin.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6A3963A16BF68D600737BF4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B6A3963E16BF68D600737BF4 /* IdleSleep-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IdleSleep-Info.plist"; sourceTree = SOURCE_ROOT; };
 		B6A3964016BF68D600737BF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		B6A3963816BF68D600737BF4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6A3963716BF68D600737BF4 /* IdleSleep.qsplugin */,
+				B6A3963716BF68D600737BF4 /* Idle Sleep Plugin.qsplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,9 +117,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B6A3963616BF68D600737BF4 /* IdleSleep */ = {
+		B6A3963616BF68D600737BF4 /* Idle Sleep Plugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6A3965316BF68D600737BF4 /* Build configuration list for PBXNativeTarget "IdleSleep" */;
+			buildConfigurationList = B6A3965316BF68D600737BF4 /* Build configuration list for PBXNativeTarget "Idle Sleep Plugin" */;
 			buildPhases = (
 				B6A3963216BF68D600737BF4 /* ShellScript */,
 				B6A3963316BF68D600737BF4 /* Sources */,
@@ -130,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = IdleSleep;
+			name = "Idle Sleep Plugin";
 			productName = "IdleSleep-qsplugin";
-			productReference = B6A3963716BF68D600737BF4 /* IdleSleep.qsplugin */;
+			productReference = B6A3963716BF68D600737BF4 /* Idle Sleep Plugin.qsplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -144,7 +144,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = Wei;
 			};
-			buildConfigurationList = B6A3963116BF68D600737BF4 /* Build configuration list for PBXProject "IdleSleep" */;
+			buildConfigurationList = B6A3963116BF68D600737BF4 /* Build configuration list for PBXProject "Idle Sleep Plugin" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -156,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6A3963616BF68D600737BF4 /* IdleSleep */,
+				B6A3963616BF68D600737BF4 /* Idle Sleep Plugin */,
 			);
 		};
 /* End PBXProject section */
@@ -231,7 +231,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6A3964616BF68D600737BF4 /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = IdleSleep;
+				PRODUCT_NAME = "Idle Sleep Plugin";
 			};
 			name = Debug;
 		};
@@ -239,14 +239,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B6A3964616BF68D600737BF4 /* QSPlugIn.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = IdleSleep;
+				PRODUCT_NAME = "Idle Sleep Plugin";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B6A3963116BF68D600737BF4 /* Build configuration list for PBXProject "IdleSleep" */ = {
+		B6A3963116BF68D600737BF4 /* Build configuration list for PBXProject "Idle Sleep Plugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6A3965116BF68D600737BF4 /* Debug */,
@@ -255,7 +255,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6A3965316BF68D600737BF4 /* Build configuration list for PBXNativeTarget "IdleSleep" */ = {
+		B6A3965316BF68D600737BF4 /* Build configuration list for PBXNativeTarget "Idle Sleep Plugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6A3965416BF68D600737BF4 /* Debug */,

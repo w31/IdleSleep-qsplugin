@@ -33,10 +33,10 @@
 	newObject=[QSObject objectWithName:@"Idle Sleep"];
 	[newObject setObject:@"Virtual Idle Sleep Object" forType:QSIdleSleep_qspluginType];
 	[newObject setPrimaryType:QSIdleSleep_qspluginType];
-    [newObject setDetails:@"Put computer to sleep when idle"];
+    [newObject setDetails:@"Puts computer to sleep when idle"];
     [newObject setIdentifier:@"IdleSleep"];
     [newObject setLabel:@"Idle Sleep"];
-    [newObject setName:@"IdleSleep Object"];
+    [newObject setName:@"Idle Sleep Object"];
 	[objects addObject:newObject];
 	
 	return objects;

@@ -15,7 +15,7 @@
     NSLog(@"disableIdleSleep");
 	IOReturn success = IOPMAssertionCreateWithName(kIOPMAssertionTypeNoIdleSleep,
 												   kIOPMAssertionLevelOn,
-                                                   CFSTR("Quicksilver IdleSleep plugin"),
+                                                   CFSTR("Quicksilver Idle Sleep plugin"),
                                                    &assertionID);
 	if (success != kIOReturnSuccess) {
         NSLog(@"IOPMAssertionCreateWithName failed");

@@ -97,7 +97,7 @@
 			<key>icon</key>
 			<string>KEXT</string>
 			<key>name</key>
-			<string>IdleSleep</string>
+			<string>Idle Sleep</string>
 			<key>source</key>
 			<string>QSGroupObjectSource</string>
 		</dict>

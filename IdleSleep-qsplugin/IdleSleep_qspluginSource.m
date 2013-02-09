@@ -34,8 +34,9 @@
 	[newObject setObject:@"Virtual Idle Sleep Object" forType:QSIdleSleep_qspluginType];
 	[newObject setPrimaryType:QSIdleSleep_qspluginType];
     [newObject setDetails:@"Idle Sleep"];
-//    [newObject setIcon:<#(NSImage *)#>];
-//    [newObject setIdentifier:@"IdleSleep"];
+    [newObject setIdentifier:@"IdleSleep"];
+    [newObject setLabel:@"IdleSleep Object"];
+    [newObject setName:@"IdleSleep Object"];
 	[objects addObject:newObject];
 	
 	return objects;

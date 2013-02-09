@@ -21,6 +21,8 @@
         NSLog(@"IOPMAssertionCreateWithName failed");
     }
 
+    idleSleepDisabled = YES;
+
     return nil;
 }
 
@@ -31,6 +33,8 @@
 	if (success != kIOReturnSuccess) {
         NSLog(@"IOPMAssertionRelease failed");
     }
+
+    idleSleepDisabled = NO;
 
     return nil;
 }

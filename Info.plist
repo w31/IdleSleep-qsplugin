@@ -36,6 +36,8 @@
 			</array>
 			<key>icon</key>
 			<string>ToolbarAdvanced</string>
+			<key>precedence</key>
+			<integer>1</integer>
 			<key>validatesObjects</key>
 			<true/>
 		</dict>
@@ -51,6 +53,8 @@
 			</array>
 			<key>icon</key>
 			<string>ToolbarAdvanced</string>
+			<key>precedence</key>
+			<integer>1</integer>
 			<key>validatesObjects</key>
 			<true/>
 		</dict>
@@ -70,7 +74,7 @@
 		<key>icon</key>
 		<string>KEXT</string>
 	</dict>
-	<key>QSPresetAdditionsTemplate</key>
+	<key>QSPresetAdditions</key>
 	<array>
 		<dict>
 			<key>ID</key>
@@ -79,9 +83,9 @@
 			<array>
 				<dict>
 					<key>ID</key>
-					<string>QSPresetIdleSleep_qspluginExample</string>
+					<string>QSPresetIdleSleep_qsplugin</string>
 					<key>name</key>
-					<string>Items from IdleSleep-qsplugin</string>
+					<string>Items from IdleSleep plugin</string>
 					<key>source</key>
 					<string>QSIdleSleep_qspluginSource</string>
 				</dict>
@@ -89,7 +93,7 @@
 			<key>icon</key>
 			<string>KEXT</string>
 			<key>name</key>
-			<string>IdleSleep-qsplugin Presets</string>
+			<string>IdleSleep</string>
 			<key>source</key>
 			<string>QSGroupObjectSource</string>
 		</dict>

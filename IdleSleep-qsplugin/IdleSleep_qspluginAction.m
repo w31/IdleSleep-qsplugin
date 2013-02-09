@@ -54,4 +54,14 @@
     return nil;
 }
 
+- (void)dealloc
+{
+    if (idleSleepDisabled) {
+        NSLog(@"Calling enableIdleSleep via dealloc");
+        [self enableIdleSleep];
+    }
+
+    [super dealloc];
+}
+
 @end

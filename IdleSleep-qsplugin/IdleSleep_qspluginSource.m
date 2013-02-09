@@ -33,9 +33,9 @@
 	newObject=[QSObject objectWithName:@"Idle Sleep"];
 	[newObject setObject:@"Virtual Idle Sleep Object" forType:QSIdleSleep_qspluginType];
 	[newObject setPrimaryType:QSIdleSleep_qspluginType];
-    [newObject setDetails:@"Idle Sleep"];
+    [newObject setDetails:@"Put computer to sleep when idle"];
     [newObject setIdentifier:@"IdleSleep"];
-    [newObject setLabel:@"IdleSleep Object"];
+    [newObject setLabel:@"Idle Sleep"];
     [newObject setName:@"IdleSleep Object"];
 	[objects addObject:newObject];
 	

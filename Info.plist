@@ -36,6 +36,8 @@
 			</array>
 			<key>icon</key>
 			<string>ToolbarAdvanced</string>
+			<key>name</key>
+			<string>Disable idle sleep</string>
 			<key>precedence</key>
 			<integer>1</integer>
 			<key>validatesObjects</key>
@@ -53,6 +55,8 @@
 			</array>
 			<key>icon</key>
 			<string>ToolbarAdvanced</string>
+			<key>name</key>
+			<string>Enable idle sleep</string>
 			<key>precedence</key>
 			<integer>1</integer>
 			<key>validatesObjects</key>
